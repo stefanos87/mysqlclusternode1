@@ -11,4 +11,4 @@ RUN chmod +x /usr/local/bin/script.sh
 
 EXPOSE 33061 33060 3306
 
-#ENTRYPOINT ["script.sh"]
+ENTRYPOINT ["script.sh"]
