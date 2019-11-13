@@ -9,6 +9,6 @@ ENV MYSQL_ROOT_PASSWORD=root
 COPY script.sh /usr/local/bin/script.sh
 RUN chmod +x /usr/local/bin/script.sh
 
-EXPOSE 33061
+EXPOSE 33061 33060 3306
 
 ENTRYPOINT ["script.sh"]
